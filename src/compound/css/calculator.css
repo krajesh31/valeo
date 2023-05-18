@@ -1,0 +1,49 @@
+.calculator
+{
+  background: url(../img/cal.jpg) rgba(0,0,0,0.7);
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+   margin-bottom: 50px;    
+    
+}
+.calculator h2{
+  font-size: 25px;
+  color: #fff;
+  padding: 130px;
+}
+.form-container, .out-sec-container {
+    padding: 20px;
+      background: #eee;
+      height: 100%;
+  }
+  .input:focus, select:focus, input:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  .out-sec {
+    display: flex;
+    padding: 10px 0;
+  }
+  .row.out-sec, .row.out-dimension label {
+    border-bottom: 1px solid #dad2d2;
+  }
+  .col-sm-6.out-lbl {
+    border-right: 1px solid #dad2d2;
+  }
+  .out-lbl label, .out-dimension label {
+    font-weight: bold;
+  }
+
+  .App{
+    font-size: 15px;
+    
+  }
+
+
+  @media only screen and(max-width:768.98px){
+    .cal-head{
+      margin: 0%;
+    }
+  }

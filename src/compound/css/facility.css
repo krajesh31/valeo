@@ -1,0 +1,36 @@
+.about-header-Facility{
+    background: url(../img/clients/facility.jpg);
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.about-header-Facility h2 {
+    color: #ffff;
+    font-family: Quicksand;
+    padding: 150px;
+    font-size: 80%;
+    visibility: hidden;
+}
+
+.facility-img img{
+    height: 464px;
+    width: 694px;
+    border-radius: 20px;
+    margin-left: -80px;
+}
+
+.facility-img-2 img
+{
+    height: 464px;
+    width: 504px;
+    border-radius: 20px;
+    margin-left: -20px;
+}
+
+.facility-grid2{
+    font-size: 21px;
+    text-align: left;
+    color: #ffffffb7;
+    font-family: sans-serif;}

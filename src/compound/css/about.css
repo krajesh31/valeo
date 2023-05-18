@@ -1,0 +1,235 @@
+.about-header {
+    background: url(../img/clients/about1.jpg) rgba(0, 0, 0, 0.0);
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.AboutUpdateImage
+{
+    height: 460px;
+    width: 541px;
+    border-radius: 20px;
+}
+
+.about-center-head p
+{
+    font-size: 21px;
+    text-align: left;
+    color: #ffffffb7;
+    font-family: sans-serif;
+    display:flex;
+    justify-content:flex-start;
+    margin:0px 15px 10px 45px;
+    
+}
+.About-update-header h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    color: #0095DA;    
+    text-align: left;
+    font-size: 35px;
+}
+
+.about-header h2 {
+    color: #ffff;
+    font-family: Quicksand;
+    padding: 150px;
+    font-size: 80%;
+    visibility: hidden;
+}
+
+.about-child p {
+    font-size: 21px;
+    text-align: left;
+    color: #ffffffb7;
+    font-family: sans-serif;
+}
+
+.about-child h2 {
+    color: #fff;
+    text-align: left;
+
+}
+
+.aboutmain {
+    animation: rotation 4s infinite linear;
+    margin-top: 80px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+
+}
+
+.about-header2 {
+    color: #fff;
+}
+
+
+.about-header2 h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    color: #0095DA;    
+    font-size: 30px;
+}
+
+.about-header2 span {
+    color: #fff;
+    font-size: 15px;
+    /* margin-top: -10%; */
+    /* position: absolute; */
+}
+
+.about-arrow span {
+    margin: 10px;
+    /* position: absolute; */
+}
+
+.about-p p{
+    font-size: 21px;
+    text-align: left;
+    color: #ffffffb7;
+    font-family: sans-serif;
+    margin:0px 15px 10px 40px;
+    
+
+}
+
+.head-image img {
+    width: 305px;
+    height: 200px;
+}
+
+
+
+.header-vmc {
+    font-size: 18px;
+    color: #fff;
+    background: #7979797b;
+    width: 300px;
+    height: 200px;
+
+
+}
+
+.services h2 {
+    /* font-size: 20px; */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: #0095DA;    text-align: center;
+}
+
+.head-image {
+    background: #b9b1b1f1;
+    width: 305px;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+.head-image h3 {
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.head-image:hover {
+    color: #ffffffb7;
+}
+
+.famonero {
+    font-size: 55px;
+    position: absolute;
+    z-index: 20;
+    margin-top: -10%;
+    margin-left: 20%;
+}
+
+.header-ul {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.588);
+}
+
+.about-image {
+    width: 300px;
+    height: 220px;
+}
+
+.infrstructure {
+    font-size: 18px;
+    /* display: grid/; */
+    color: #fff;
+}
+
+.infrstructure-start p {
+    color: #ffffffb7;
+    text-align: left;
+
+}
+
+
+
+.aboutlast img {
+    border-radius: 10px;
+}
+
+.aboutlast img:hover {
+    
+    border: 2px solid seashell;
+
+}
+@media only screen and (max-width:768.98px) {
+        
+.aboutmain {
+    animation: rotation 4s infinite linear;
+    margin-top: -10px ;
+}
+
+}
+
+@media only screen and (max-width:668.98px) {
+    .aboutlast img {
+        height: 200px;
+        width: 250px;
+    }
+
+    .choose p{
+    text-align: left;
+    }
+    
+}
+
+@media only screen and (max-width:500.98px) {
+    .services h2{
+        font-size:18px;
+    }
+
+    .about-child p{
+        font-size:15px;
+    }
+
+    .about-header2 h2{
+        font-size:18px;
+    }
+
+    .choose p{
+        font-size:13.5px;
+    }
+
+    .industry-text h4{
+        font-size:18px;
+
+    }
+    .industry-text p{
+        font-size:15px;
+
+    }
+.infrstructure-start h3{
+    font-size:18px;
+}    
+}

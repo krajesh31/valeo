@@ -1,0 +1,282 @@
+
+  /*PRODUCT HEADER*/
+
+  .product-header {
+    background: url(../img/producthead.jpg) rgba(0,0,0,0.7);
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+   margin-bottom: 50px;    
+}
+
+.product-header h2{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  color: #0095DA;
+    padding: 150px;
+    font-size: 35px;
+}
+
+.blog-head-flex
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog
+{
+  background: url(../img/backblog.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+
+.blog-artical-div
+{
+  background-color: #5a5959;
+}
+
+.grid > article img {
+  /* max-width: 100%; */
+  width: 500px;
+}
+.blog-p
+{
+  text-align: left;
+}
+.product-head .text {
+  padding: 20px;
+  background: #5a5959;
+}
+
+.text{
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+}
+
+.blog-flex
+{
+  display: flex;
+  margin: 20px 10px 30px 10px;
+}
+
+.blog-user-img
+{
+  font-size: 28px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.blog-name
+{
+  color: #fff;
+  font-size: 18px;
+  /* position: fixed; */
+  margin-top: 39px;
+}
+
+.faheart
+{
+  color: rgb(203, 12, 130);
+  font-size: 18px;
+  margin: 37px 10px;
+
+}
+
+.hear-span
+{
+  font-size: 15px;
+  color: #fff;
+  margin: 43px 10px;
+}
+
+.facommant
+{
+  color:rgb(255, 81, 0);
+  font-size: 18px; 
+  margin: 38px 10px;
+
+}
+
+.fauser
+{
+   margin-top: -10px;
+   
+}
+
+.product-h
+{
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+}
+
+.pro-head
+{
+    text-align: left;
+}
+.pro-button {
+  border: none;
+  font-size: 15px;
+  background: #fff;
+  padding: 10px 25px;
+  color: #000;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.read-button {
+  color: #fff;
+  border: 3px solid #2c2c2c;
+  background-image: -webkit-linear-gradient(30deg, #2c2c2c 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #2c2c2c 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  text-decoration: none;  
+  color: #fff;
+}
+
+.read-button:hover {
+  background-position: 100%;
+  color: #000;
+}
+
+.pro-head h2 {
+  text-align: left;
+}
+
+@media only screen and (max-width:1010.98px) {
+
+  .blog-flex
+  {
+    display: flex;
+    margin: 20px 10px 30px 10px;
+  }
+
+  .blog-user-img
+  {
+    font-size: 28px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  .blog-name
+  {
+    color: #fff;
+    font-size: 18px;
+    /* position: fixed; */
+    margin-top: 30px;
+  }
+
+  .faheart
+  {
+    color: rgb(203, 12, 130);
+    font-size: 18px;
+    margin: 28px 10px;
+
+  }
+
+  .hear-span
+  {
+    font-size: 15px;
+    color: #fff;
+    margin: 32px 10px;
+  }
+
+  .facommant
+  {
+    color:rgb(255, 81, 0);
+    font-size: 18px; 
+    margin: 30px 10px;
+
+  }
+
+  .fauser
+  {
+     margin-top: -10px;
+     
+  }
+
+
+    
+}
+
+
+@media only screen and (max-width:604.98px) {
+  .blog-flex
+  {
+    display: flex;
+    margin: 20px 10px 30px 10px;
+  }
+
+  .blog-user-img
+  {
+    font-size: 28px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  .blog-name
+  {
+    color: #fff;
+    font-size: 18px;
+    /* position: fixed; */
+    margin-top: 13px;
+  }
+
+  .faheart
+  {
+    color: rgb(203, 12, 130);
+    font-size: 18px;
+    margin: 10px 10px;
+
+  }
+
+  .hear-span
+  {
+    font-size: 15px;
+    color: #fff;
+    margin: 13px 10px;
+  }
+
+  .facommant
+  {
+    color:rgb(255, 81, 0);
+    font-size: 18px; 
+    margin: 10px 10px;
+
+  }
+
+  .fauser
+  {
+     margin-top: -10px;
+     
+  }
+
+  
+}
+
+@media only screen and (max-width:500.98px) {
+  .industry-head h2{
+    font-size: 30px;
+  }
+}

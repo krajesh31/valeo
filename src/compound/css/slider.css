@@ -1,0 +1,23 @@
+.slider {
+    margin-top: -160px;
+}
+
+@media only screen and (max-width:768.98px) {
+    .slider-img {
+        height: 300px;
+    }
+    .slider {
+        margin-top: -76px;
+    }
+    
+}
+
+@media only screen and (max-width:420.98px) {
+    .slider-img {
+        height: 260px;
+    }
+    .slider {
+        margin-top: -65px;
+    }
+    
+}
