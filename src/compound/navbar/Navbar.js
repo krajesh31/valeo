@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import { FaAdn, FaBars, FaBox, FaCogs, FaPhoneAlt, FaRust, FaWhatsapp, FaWindowClose, FaWonSign,FaCaretDown } from 'react-icons/fa';
 import logo from '../img/logo2.png';
 import '../css/navbar.css'
@@ -10,6 +10,10 @@ function Navbar() {
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
+  console.log("Location: ",splitLocation);
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
@@ -19,7 +23,7 @@ function Navbar() {
             <img src={logo} alt="" className="logo" />
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            <li className={splitLocation[1] === "" ? "nav-item menu-item-selected" : "nav-item"}>
               <NavLink
                 exact
                 to="/"
@@ -30,7 +34,7 @@ function Navbar() {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className={splitLocation[1] === "about" ? "nav-item menu-item-selected" : "nav-item"}>
               <NavLink
                 exact
                 to="/about"
@@ -41,7 +45,7 @@ function Navbar() {
                 About Us
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className={splitLocation[1] === "facility" ? "nav-item menu-item-selected" : "nav-item"}>
               <NavLink
                 exact
                 to="/facility"
@@ -77,14 +81,14 @@ function Navbar() {
               </NavLink>
             </li> */}
 
-            <li className="nav-item">
-              <NavLink
+            <li className={splitLocation[1] === "products" ? "nav-item menu-item-selected" : "nav-item"}>
+              {/* <NavLink
                 exact
                 to="/partners"
                 activeClassName="active"
                 className="nav-links"
                 // onClick={click ? handleClick : null}
-              >
+              > */}
                 <div class="dropdown">
                   <button class="dropbtn"  id="dropdown-basic">Products<FaCaretDown/> </button>
                   <div class="dropdown-content">
@@ -95,11 +99,11 @@ function Navbar() {
                   <Link to="/quality" className="drop-link" onClick={click ? handleClick : null}><FaAdn className="m-2"/> Quality Assurance</Link>
                   </div>
                 </div>             
-                 </NavLink>
+                 {/* </NavLink> */}
             </li>
 
 
-            <li className="nav-item">
+            <li className={splitLocation[1] === "partners" ? "nav-item menu-item-selected" : "nav-item"}>
               <NavLink
                 exact
                 to="/partners"
@@ -110,7 +114,7 @@ function Navbar() {
                 Partners
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className={splitLocation[1] === "contact" ? "nav-item menu-item-selected" : "nav-item"}>
               <NavLink
                 exact
                 to="/contact"

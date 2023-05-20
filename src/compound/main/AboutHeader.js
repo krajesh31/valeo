@@ -36,11 +36,10 @@ function AboutHeader() {
                     </div>
                     <p>
 
-                        Established in 1984, Vartika Wire Products Private Limited is a leading manufacture of copper wire and allied products in South India. We have been manufacturing bunched & Stranded, Tin Plated, Super Enameled Copper Winding Wires (Magnet Wires) for the last 2 decades catering to the specific requirements of our customers. We have a manufacturing capacity about 10000 tones of copper wire allied products a year. the company caters to the specific requirements of various core industry sectors like machinery, telecom, power and automotive. The company holds an ISO 9001:2000 certification and RoHS certification for its products. Using state of the art technology to ensure quality and productivity.It is the era of the internet, and every businesses of all magnitudes, from a
-                        small-scale manufacturer to a conglomerate, need a strong internet presence.
+                        Established in 1984, Vartika Wire Products Private Limited is a leading manufacture of copper wire and allied products in South India. We have been manufacturing bunched & Stranded, Tin Plated, Super Enameled Copper Winding Wires (Magnet Wires) for the last 2 decades catering to the specific requirements of our customers. We have a manufacturing capacity about 10000 tones of copper wire allied products a year. the company caters to the specific requirements of various core industry sectors like machinery, telecom, power and automotive. The company holds an ISO 9001:2000 certification and RoHS certification for its products. Using state of the art technology to ensure quality and productivity.
 
                     </p>
-
+                    <p>Established in 1984, Vartika Wire Products Private Limited is a leading manufacture of copper wire and allied products in South India. We have been manufacturing bunched & Stranded, Tin Plated, Super Enameled Copper Winding Wires (Magnet Wires) for the last 2 decades catering to the specific requirements of our customers. We have a manufacturing capacity about 10000 tones of copper wire allied products a year.</p>
 
 
                     {/* <p data-aos="fade-top">
@@ -58,18 +57,8 @@ function AboutHeader() {
 
             </div>
 
-            <div className="about-center-head mx-5">
-                <p data-aos="fade-top">
-
-                    Curating to individual needs of every firm or organization
-                    we represent, we fabricate tailor made web applications, be
-                    it a simple online brochure, or a database driven business
-                    platform solution, within the nick of time, and at sensible
-                    pricing.It is the era of the internet, and every businesses of all magnitudes, from a
-                    small-scale manufacturer to a conglomerate, need a strong internet presence.
-                    
-
-                </p>
+            <div className="about-p mx-5 choose">
+            <p>Established in 1984, Vartika Wire Products Private Limited is a leading manufacture of copper wire and allied products in South India. We have been manufacturing bunched & Stranded, Tin Plated, Super Enameled Copper Winding Wires (Magnet Wires) for the last 2 decades catering to the specific requirements of our customers. We have a manufacturing capacity about 10000 tones of copper wire allied products a year.</p>
             </div>
             <div className="about-header2">
                 <h2 className="my-5" data-aos="fade-top">WHY CHOOSE US</h2>

@@ -27,11 +27,11 @@ function Industry() {
           <article className="artical">
             <div className="industry-artical-div">
               <img src={Industry1} alt="" data-aos="fade-top"/>
-              <div class="text industry-text" id="panel-container">
+              <div class="text industry-text panel-container">
                 <div class="panel-content">
                 <h2 className="my-3 IndustryCardH2"data-aos="fade-top" >SOLAR PANEL</h2>
                 <div className="newIndustryReadMore">
-                  <button><Link className="newIndustryReadMoreLink">READ MORE</Link></button>
+                  <button><Link className="newIndustryReadMoreLink">Read More</Link></button>
                 </div>
                 </div>
                 </div>
@@ -41,10 +41,10 @@ function Industry() {
           <article className="industry-artical2">
             <div  className="industry-artical-div">
             <img src={Industry2} alt="" data-aos="fade-top"/>
-            <div class="text industry-text"  id="panel-container">
+            <div class="text industry-text panel-container">
               <h2 className="my-3">TRANSFORMER</h2>
               <div className="newIndustryReadMore">
-                  <button><Link className="newIndustryReadMoreLink">READ MORE</Link></button>
+                  <button><Link className="newIndustryReadMoreLink">Read More</Link></button>
                 </div>
               {/* <p>The transformer industry is involved in the manufacturing, installation, and maintenance of transformers, which are electrical devices used to transfer electrical energy between circuits by means of electromagnetic induction. Transformers are commonly used in power distribution systems to step up or step down the voltage of electrical energy.</p> */}
 
@@ -54,10 +54,10 @@ function Industry() {
           <article>
             <div  className="industry-artical-div">
             <img src={Industry3} alt="" data-aos="fade-top"/>
-            <div class="text industry-text"  id="panel-container">
+            <div class="text industry-text panel-container">
               <h2 className="my-3" data-aos="fade-top">AUTOMOTIVE</h2>
               <div className="newIndustryReadMore">
-                  <button><Link className="newIndustryReadMoreLink">READ MORE</Link></button>
+                  <button><Link className="newIndustryReadMoreLink">Read More</Link></button>
                 </div>
               {/* <p data-aos="fade-top">Automotive manufacturing involves the production of vehicles and their components, including engines, transmissions, brakes, and electrical systems. Many different materials are used in the production of vehicles, including metals, plastics, rubber, and glass. Copper is also used in the production of automotive components, such as wiring, electrical connectors, and radiators.</p> */}
 

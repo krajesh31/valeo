@@ -19,7 +19,7 @@ function Facility() {
                 <div className="col-md-7 mx-auto my-4 facility-img" data-aos="fade-top">
                     <img src={about} alt="" className="AboutUpdateImage" />
                 </div>
-                <div className="col-md-4 about-child facility-child my-3" data-aos="fade-top">
+                <div className="col-md-5 about-child facility-child my-3" data-aos="fade-top">
                     <div className="About-update-header">
                         <h3 className=" mb-4">INFRASTRUCTURE</h3>
                     </div>
