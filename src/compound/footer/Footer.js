@@ -9,8 +9,6 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <section className="footer">
-             <div className="button-head">
-            </div>
             <div className="footer-line">
                 
             </div>

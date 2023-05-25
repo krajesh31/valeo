@@ -31,15 +31,12 @@ body {
 .form-container-new{
   font-size:15px;
 }
-
+.cform-section {
+  background: #edf0f2;
+}
 .form-new-gridHead{
   background:#fff;
   padding:20px 60px 60px 60px;
-  box-shadow: 0px 0px 11px 3px rgba(255,255,255,0.76);
--webkit-box-shadow: 0px 0px 11px 3px rgba(255,255,255,0.76);
--moz-box-shadow: 0px 0px 11px 3px rgba(255,255,255,0.76);
-width: 750px;
-
 }
 /* .form-new-gridHead div h1 */
 .industry-artical-div{
@@ -79,11 +76,7 @@ width: 750px;
   display:none;
 }
 .form-grid2-head{
-  background:#fff;
-  height:391px;
-  box-shadow: 0px 0px 11px 3px rgba(255,255,255,0.76);
-  -webkit-box-shadow: 0px 0px 11px 3px rgba(255,255,255,0.76);
-  -moz-box-shadow: 0px 0px 11px 3px rgba(255,255,255,0.76);
+  padding: 0 20px;
 }
 
 .form-grid2-head h2{
@@ -179,18 +172,24 @@ border-radius:3px;
 }
 
 .cont-flex{
-  display:flex;
+  display:inline-flex;
   gap:10px;
   text-align:left ;
+  width:100%;
 
 }
 
 .location-contact{
-font-size:20px;
-/* background: red; */
-height: 30px;
-margin: 0 10px;
-border-radius:  500px ;
+  font-size: 14px;
+  background: #A6CE38;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 500px;
+  width: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .location-contact .contact-last-icon{
   /* border:1px soild red; */

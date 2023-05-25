@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import last from '../img/about-last.png'
 import Arrow from "./Arrow";
 import '../css/facility.css'
@@ -6,6 +6,9 @@ import about from '../img/aboutcard.png'
 import facility from '../img/clients/cottan.jpeg'
 
 function Facility() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <>
 

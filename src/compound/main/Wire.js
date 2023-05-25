@@ -28,6 +28,9 @@ function Wire() {
   useEffect(() => {
     AOS.init();
   }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [modalShow, setModalShow] = useState(false);
 
 

@@ -16,7 +16,10 @@ function AboutHeader() {
         AOS.init();
     }, [])
 
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return (
         <section>
             <div className="about-header" data-aos="fade-top">
