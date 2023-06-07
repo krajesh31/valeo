@@ -1,4 +1,5 @@
 import './App.css';
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
 import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import Navbar from './compound/navbar/Navbar'
 import Home from './pages/Home';
@@ -34,7 +35,7 @@ function App() {
               <Route path="/partners" component={Partners} />
               <Route path="/contact" component={Contact} />
               <Route path="/pv" component={Pv} />
-              <Route path="/wire" component={Wire} />
+              <Route path="/wire" component={Wire}/>
               <Route path="/energy" component={Energy} />
               <Route path="/quality" component={Quality} />
               <Route path="/facility" component={Facility} />

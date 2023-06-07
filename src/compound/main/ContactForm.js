@@ -53,31 +53,34 @@ function ContactForm() {
             <div className="contact-head">
                 <h3 data-aos="fade-top">.</h3>
             </div>
-            <section class="cform-section pt-5 pb-5">
-                <div className="contact-form-lable container mt-4 mb-3">
+            <section className="cform-section pt-5 pb-5">
+                <div className="contact-form-lable  mt-4 mb-3">
                     {/* <div>
                     <h2>Contact Form</h2>
                     </div> */}
                     <div className="row ">
-                        <div className="col-sm-5 pt-4">
+                        <div className="col-sm-5 mb-5">
                             <div className="form-grid2-head" >
-                                <h2 className="mx-4 pt-4 pb-4" >Valeo Product LLP</h2>
+                                <h2 className="mx-4 pt-4 pb-4" >VALEO PRODUCTS LLP</h2>
                                 <div className="cont-flex my-3">
                                     <div>
                                     <div className="location-contact location-last-contact px-1">
                                         <FaLocationArrow className="contact-last-icon" />
                                     </div>
                                     </div>
-                                    <div><h6 className="con-info"> Sy No. 192, 195, 196, 199, <br/>Kucharam(V), Toopran(M), Medak(D) -502 336,<br/> Telangana, India.</h6></div>
+                                    <div><h6 className="con-info"> Sy No. 192, 195, 196, 199, <br/>Kucharam(V),
+                                     Toopran(M),<br/>Medak(D) -502 336,<br/> Telangana, India.</h6></div>
 
                                 </div>
 
-                                <div className="cont-flex my-3 mt-0">
+                                  <div className="cont-flex my-3 mt-0">
                                     <div className="location-contact px-1">
                                         <FaEnvelope />
                                     </div>
 
-                                    <div><h6 className="con-info mt-2">lavi@muthametal.com</h6></div>
+                                    <div><h6 className="con-info mt-2">lavi@muthametal.com</h6>
+                                    <h6 className="con-info mt-2">lavi@muthametal.com</h6>
+                                    </div>
 
                                 </div>
 
@@ -85,7 +88,12 @@ function ContactForm() {
                                     <div className="location-contact loc-con px-1">
                                         <FaPhoneAlt />
                                     </div>
-                                    <div><h6 className="con-info ">+91 8000013445</h6></div>
+                                    <div>
+                                    <h6 className="con-info ">+91 8000013445</h6>
+                                    <h6 className="con-info ">+91 8000013445</h6>
+                                    <h6 className="con-info ">+91 8000013445</h6>
+
+                                    </div>
 
                                 </div>
 
@@ -111,7 +119,7 @@ function ContactForm() {
                         <div className="col-sm-7">
                             <div className="form-new-gridHead">
                                 <div>
-                                    <h1 className="mb-4">Contact Form</h1>
+                                    <h2 className="mb-4">CONTACT FORM</h2>
                                 </div>
                                 <Form className="text-start" onSubmit={formik.handleSubmit}>
                                 <div className="row">
@@ -250,7 +258,7 @@ function ContactForm() {
                                             </Form.Text>
                                         </Form.Group>
                                     </div>
-                                    <div class="col-6 form-input-last-update">
+                                    <div className="col-6 form-input-last-update">
                                     <Button
                                         className="btn btn-primary form-update-submit"
                                         variant="primary"
@@ -269,19 +277,19 @@ function ContactForm() {
                     </div>
                 </div>
             </section>
-            <section class="cform-section pt-5 pb-5 bg-white">
-                <div class="container my-5">
+            <section className="cform-section pt-5 pb-5 bg-white">
+                <div className=" mb-5">
 
                     <div className="industry-head">
                         <h2 className="ind-serve py-1" data-aos="fade-top">BRANCH OFFICES</h2>
                         {/* <p className="" data-aos="fade-top ">The term "industry" can refer to a broad range of fields and sectors involved in the production of goods or services. Some examples of industries include:</p> */}
                     </div>
-                    <main class="grid my-5">
+                    <main className="grid contact-grid my-5">
                         <article className="artical ">
                             <div className="industry-artical-div">
-                                <img src={surat} alt="" data-aos="fade-top" className="places" />
-                                <div class="text industry-text" id="form-update-card">
-                                    <div class="panel-content">
+                                <img src={surat} alt="" data-aos="fade-top" className="places" style={{borderRadius:"0"}} />
+                                <div className="text industry-text" id="form-update-card">
+                                    <div className="panel-content">
                                         {/* <h2 className="my-3" data-aos="fade-top">SOLAR PANEL</h2> */}
                                         <div className="read" style={{ textAlign: "left" }}>
                                             <h1 className="mx-2">Surat</h1>
@@ -290,7 +298,7 @@ function ContactForm() {
                                                     <FaLocationArrow className="mx-2" />
                                                 </div>
                                                 <div>
-                                                    <h5>Sy No. 192, 195, 196, 199, Kucharam(V), Toopran(M), Medak(D) -502 336, Telangana, India</h5>
+                                                    <h5>Sy No. 192, 195, 196, 199,<br/> Kucharam(V), Toopran(M), <br/>Medak(D) -502 336,<br/> Telangana, India</h5>
                                                 </div>
                                             </div>
 
@@ -321,8 +329,8 @@ function ContactForm() {
                         </article>
                         <article className="industry-artical2">
                             <div className="industry-artical-div">
-                                <img src={jai} alt="" data-aos="fade-top" className="places" />
-                                <div class="text industry-text">
+                                <img src={jai} alt="" data-aos="fade-top" className="places" style={{borderRadius:"0"}}/>
+                                <div className="text industry-text">
                                     {/* <h2 className="my-3">TRANSFORMER</h2> */}
                                     <div className="read" style={{ textAlign: "left" }} >
                                         <div className="read" style={{ textAlign: "left" }}>
@@ -332,7 +340,7 @@ function ContactForm() {
                                                     <FaLocationArrow className="mx-2" />
                                                 </div>
                                                 <div>
-                                                    <h5>Sy No. 192, 195, 196, 199, Kucharam(V), Toopran(M), Medak(D) -502 336, Telangana, India</h5>
+                                                    <h5>Sy No. 192, 195, 196, 199,<br/> Kucharam(V), Toopran(M),<br/> Medak(D) -502 336,<br/> Telangana, India</h5>
                                                 </div>
                                             </div>
 
@@ -363,8 +371,8 @@ function ContactForm() {
                         </article>
                         <article>
                             <div className="industry-artical-div">
-                                <img src={delhi} alt="" data-aos="fade-top" className="places" />
-                                <div class="text industry-text">
+                                <img src={delhi} alt="" data-aos="fade-top" className="places" style={{borderRadius:"0"}} />
+                                <div className="text industry-text">
                                     {/* <h2 className="my-3" data-aos="fade-top">AUTOMOTIVE</h2> */}
                                     <div className="read" style={{ textAlign: "left" }}>
                                         <div className="read" style={{ textAlign: "left" }}>
@@ -374,7 +382,7 @@ function ContactForm() {
                                                     <FaLocationArrow className="mx-2" />
                                                 </div>
                                                 <div>
-                                                    <h5>Sy No. 192, 195, 196, 199, Kucharam(V), Toopran(M), Medak(D) -502 336, Telangana, India</h5>
+                                                    <h5>Sy No. 192, 195, 196, 199,<br/> Kucharam(V), Toopran(M), <br/> Medak(D)-502 336, <br/>Telangana, India</h5>
                                                 </div>
                                             </div>
 

@@ -8,7 +8,7 @@ body, p {
     font-size: 18px !important;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 800 !important;
+    font-weight: 500 !important;
 }
 h1, h2, h3, h4, h5, h6, p, div, ul, li, a {
     font-family: Nunito,sans-serif !important;
@@ -62,4 +62,21 @@ h1, h2, h3, h4, h5, h6, p, div, ul, li, a {
     padding-top: 70px;
     text-align: center;
     background-color: #F4EBEC !important;
+}
+.image-gallery-slide .image-gallery-image {
+    object-fit: cover !important;
+}
+.image-gallery-slide{
+    max-height: 345px;
+}
+.fullscreen .image-gallery-slide{
+    max-height: inherit;
+}
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    height: 100%;
 }

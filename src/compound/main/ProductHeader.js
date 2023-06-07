@@ -22,14 +22,14 @@ function ProductHeader() {
                 <p>This is frequently referred to as cell tabbing (or stringing). The tabbing ribbon carries the solar cell’s current to a larger ribbon, the bus ribbon, which then carries power from the cell clusters to the module’s junction box for final output.</p>
             </div>
             <div>
-                <div class="container my-5">
+                <div className="container my-5">
 
 
-                    <main class="grid product-head">
+                    <main className="grid product-head">
                         <article>
                             <div className="industry-artical-div">
                                 <img src={Kindle} alt="" />
-                                <div class="text industry-text pro-head">
+                                <div className="text industry-text pro-head">
                                     <h2 className="my-3">Kindle</h2>
                                     <h4>Powering Lives</h4>
                                     <p style={{color:"#000"}}>Copper wires are a type of electrical wire that is made from copper, a highly conductive metal. These wires are used to transmit electrical power or signals from one point to another in a wide range of applications, including electrical power distribution, telecommunications, and electronics.</p>
@@ -42,7 +42,7 @@ function ProductHeader() {
                         <article>
                             <div className="industry-artical-div">
                                 <img src={Pv} alt="" />
-                                <div class="text industry-text pro-head">
+                                <div className="text industry-text pro-head">
                                     <h2 className="my-3">The PV Connect</h2>
                                     <h4>Reflecting Reliability</h4>
                                     <p style={{color:"#000"}}>Copper bus bars are flat, rectangular bars made from copper that are used to conduct electrical current in a variety of applications. They are commonly used in electrical power distribution systems, such as switchboards, panelboards, and distribution boards, as well as in industrial equipment and machinery.</p>
@@ -54,7 +54,7 @@ function ProductHeader() {
                         <article>
                             <div className="industry-artical-div">
                                 <img src={Wire} alt="" />
-                                <div class="text industry-text pro-head">
+                                <div className="text industry-text pro-head">
                                     <h2 className="my-3">Vartika Wire</h2>
                                     <h4>Vartika Wire</h4>
                                     <p className="ProductP">Copper foil is a highly conductive material that is commonly used in electronic devices, such as printed circuit boards (PCBs), flexible circuits, and electromagnetic shielding. The high conductivity of copper foil allows for efficient transmission of electrical signals and reduces the amount of energy lost as heat.</p>

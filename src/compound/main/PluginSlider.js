@@ -40,15 +40,15 @@ function PluginSlider()
   </div>
   
   <div className="col-xxl-3 col-xl-3 col-md-8  plugin-p" >
-  <div class="box">
+  <div className="box">
                 <img src={Emi}/>
-                <div class="box-content">
+                <div className="box-content">
                      <PopUp/>
                 </div>
-                <ul class="social-links">
-                    <li><a href="#"><i class="fa fa-search"></i></a></li>
-                    <li><a href="#"><i class="fa fa-link"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <ul className="social-links">
+                    <li><a href="#"><i className="fa fa-search"></i></a></li>
+                    <li><a href="#"><i className="fa fa-link"></i></a></li>
+                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>

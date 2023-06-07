@@ -23,7 +23,7 @@
 
 .part-p{
   font-size: 18px;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   line-height: 30px;
 }
 #partners-h2{
@@ -35,7 +35,8 @@
 }
   
   .team-boxed p {
-    color:#7d8285;
+    color:#000;
+    /* text-align:justify; */
   }
   
   .team-boxed h2 {

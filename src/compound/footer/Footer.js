@@ -65,7 +65,7 @@ function Footer() {
                 <div className="footer2-grid">
                         <div className="grid-div-child  ">
                             <h6 className="footer-head" >REACH US</h6>
-                            <h6 className="my-4"><Link to='/' className="grid-child-link my-5"><FaAngleRight/> Contact Us</Link></h6>
+                            <h6 className="my-4"><Link to='/contact' className="grid-child-link my-5"><FaAngleRight/> Contact Us</Link></h6>
                             <h6  className="my-4"><Link className="grid-child-link"><FaAngleRight/> Help</Link></h6>
                             <h6  className="my-4"><Link className="grid-child-link"><FaAngleRight/> Privacy</Link></h6>
                         </div>

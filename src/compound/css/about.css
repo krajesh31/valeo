@@ -9,7 +9,7 @@
 .AboutUpdateImage
 {
     height: 460px;
-    width: 541px;
+    width: 90%;
     border-radius: 20px;
 }
 
@@ -40,11 +40,24 @@
     visibility: hidden;
 }
 
+.about-child2 p{
+    margin-left: 50px !important;
+    color:#000;
+    
+}
+
+.latest_faclity h3{
+
+    text-align:none !important;
+
+}
+
 .about-child p {
     font-size: 21px;
-    text-align: left;
-    color: #ffffffb7;
+    text-align: justify;
+    color: #000;
     font-family: sans-serif;
+    margin-right: 50px
 }
 
 .about-child h2 {
@@ -96,7 +109,7 @@
 .about-p p{
     font-size: 21px;
     text-align: left;
-    color: #ffffffb7;
+    color: #000;
     font-family: sans-serif;
     margin:0px 15px 10px 40px;
     
@@ -189,6 +202,11 @@
     animation: rotation 4s infinite linear;
     margin-top: -10px ;
 }
+.about-child2 p{
+    margin-left: 0 !important;
+    color:#000;
+    
+}
 
 }
 
@@ -201,7 +219,11 @@
     .choose p{
     text-align: left;
     }
-    
+    .about-child2 p{
+        margin-left: 0 !important;
+        color:#000;
+        
+    }   
 }
 
 @media only screen and (max-width:500.98px) {
@@ -211,6 +233,12 @@
 
     .about-child p{
         font-size:15px;
+        margin:0;
+    }
+    .about-child2 p{
+        margin-left: 0 !important;
+        color:#000;
+        
     }
 
     .about-header2 h2{
@@ -219,6 +247,9 @@
 
     .choose p{
         font-size:13.5px;
+        margin: 17px;
+    text-align: justify;
+
     }
 
     .industry-text h4{

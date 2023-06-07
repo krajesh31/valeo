@@ -18,6 +18,8 @@ body {
 }
 .contact-form-lable{
   font-size: 15px;
+  margin:0 5%;
+
 }
 .form-input-last-update{
   text-align: left;
@@ -36,7 +38,9 @@ body {
 }
 .form-new-gridHead{
   background:#fff;
-  padding:20px 60px 60px 60px;
+  padding:20px 60px 40px 60px;
+  border-radius: 5px;
+
 }
 /* .form-new-gridHead div h1 */
 .industry-artical-div{
@@ -77,10 +81,16 @@ body {
 }
 .form-grid2-head{
   padding: 0 20px;
+  background-color:#fff;
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.7);
+ border-radius: 5px;
 }
 
 .form-grid2-head h2{
   color:#14317b;
+  text-align:justify;
   font-weight: 600;
   font-family: Philosopher;
 }
@@ -169,6 +179,8 @@ border-radius:3px;
 
 .con-info{
   font-size:initial;
+  line-height: 200%;
+
 }
 
 .cont-flex{
@@ -302,7 +314,11 @@ input {
 
 .contact-grid
 {
-    display: grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 25px;
+  align-items: stretch;
+  margin:0 5%;
 }
 
 .contact-icons
@@ -471,7 +487,7 @@ form.contFrm {
   /* margin-left: 25px; */
 }
 .grid .text{
-  background: #fff !important;
+  /* background: #fff !important; */
   color: #000;
   
 }
@@ -496,6 +512,8 @@ form.contFrm {
   display:flex;
   font-size:15px;
   color:#545a67;
+  line-height: 25px;
+
 }
 
 

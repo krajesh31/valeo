@@ -13,7 +13,6 @@ function Navbar() {
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
-  console.log("Location: ",splitLocation);
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
@@ -39,7 +38,7 @@ function Navbar() {
                 exact
                 to="/about"
                 activeClassName="active"
-                className="nav-links"
+                className="nav-links nav-about"
                 onClick={click ? handleClick : null}
               >
                 About Us
@@ -81,7 +80,7 @@ function Navbar() {
               </NavLink>
             </li> */}
 
-            <li className={splitLocation[1] === "products" ? "nav-item menu-item-selected" : "nav-item"}>
+            <li className={(splitLocation[1] === "wire" || splitLocation[1] === "Pv" || splitLocation[1] === "Energy" || splitLocation[1] === "Quality") ? "nav-item menu-item-selected" : "nav-item"}>
               {/* <NavLink
                 exact
                 to="/partners"
@@ -89,14 +88,14 @@ function Navbar() {
                 className="nav-links"
                 // onClick={click ? handleClick : null}
               > */}
-                <div class="dropdown">
-                  <button class="dropbtn"  id="dropdown-basic">Products<FaCaretDown/> </button>
-                  <div class="dropdown-content">
-                  <Link to="/wire" className="drop-link"  onClick={click ? handleClick : null}><FaWonSign className="m-2"/>Winding Wire</Link>
-                  <Link to="/pv" className="drop-link"     onClick={click ? handleClick : null}><FaRust className="m-2"/>Renewable Energy</Link>
-                  <Link to=""  className="drop-link"      onClick={click ? handleClick : null}><FaCogs className="m-2"/> Technical data</Link>  
-                  <Link to="/energy" className="drop-link"    onClick={click ? handleClick : null}><FaBox className="m-2"/> Packaging Option</Link>
-                  <Link to="/quality" className="drop-link" onClick={click ? handleClick : null}><FaAdn className="m-2"/> Quality Assurance</Link>
+                <div className="dropdown">
+                  <button className="dropbtn"  id="dropdown-basic">Products<FaCaretDown/> </button>
+                  <div className="dropdown-content">
+                  <span className="drop-link"><FaWonSign className=" mx-2 my-3"/><a href="wire" onClick={click ? handleClick : null}>Winding Wire</a></span>
+                  <span className="drop-link"><FaRust className="mx-2 my-3"/><a  href="Pv" onClick={click ? handleClick : null}>Renewable Energy</a></span>
+                  <span className="drop-link"><FaCogs className="mx-2 my-3"/><a  href="/" onClick={click ? handleClick : null}>Technical data</a></span>  
+                  <span className="drop-link"><FaBox className="mx-2 my-3"/><a href="Energy" onClick={click ? handleClick : null}>Packaging Option</a></span>
+                  <span className="drop-link"><FaAdn className="mx-2 my-3"/><a href="Quality"> Quality Assurance</a></span>
                   </div>
                 </div>             
                  {/* </NavLink> */}
@@ -136,10 +135,10 @@ function Navbar() {
       </nav>
       <div className="top-icons">
         <div className="top-div">
-          <a href='http://Wa.me/+918000013445' target='_blank' class="google-plus"><FaWhatsapp className="top-whatsapp" /></a>
+          <a href='http://Wa.me/+918000013445' target='_blank' className="google-plus"><FaWhatsapp className="top-whatsapp" /></a>
         </div>
         <div className="top-div2">
-          <a href="tel://+918000013445" onclick="window.open('thispage.htm','_self';"><FaPhoneAlt className="top-phone" /></a>
+          <a href="tel://+918000013445"><FaPhoneAlt className="top-phone" /></a>
 
         </div>
       </div>

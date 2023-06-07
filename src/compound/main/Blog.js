@@ -18,18 +18,18 @@ function Blog() {
     return (
         <section className="blog">
             
-            <div class="container">
+            <div className="container">
                 <div className="industry-head">
                     <h2 className="blog-header">BLOG</h2>
 
                 </div>
-                <main class="grid">
+                <main className="grid">
                     <article>
                         <div className="blog-artical-div">
                         <img src={blog1} alt="" data-aos="fade-top" />
-                        <div class="text">
-                            <h3 data-aos="fade-top">We are Best For Any Industry And Best Solution</h3>
-                            <p className="blog-p" id="blog-id" data-aos="fade-top">Our expertise spans across various industries, making us the best choice for any business seeking a solution. .</p>
+                        <div className="text">
+                            <h3 data-aos="fade-top" style={{color:"#fff"}}>We are Best For Any Industry And Best Solution</h3>
+                            <p className="blog-p" id="blog-id" data-aos="fade-top" style={{color:"#fff"}}>Our expertise spans across various industries, making us the best choice for any business seeking a solution. .</p>
                         </div>
                         {/* <div className="blog-head-flex">
                             <div className="blog-flex">
@@ -61,9 +61,9 @@ function Blog() {
                     <article>
                         <div className="blog-artical-div">
                         <img src={blog2} alt=""data-aos="fade-top" />
-                        <div class="text">
-                            <h3 data-aos="fade-top">Design and Advanced Materials As a Driver of Innovation</h3>
-                            <p className="blog-p" id="blog-id" data-aos="fade-top">The integration of advanced materials in design processes is driving innovation in various industries.</p>
+                        <div className="text">
+                            <h3 data-aos="fade-top" style={{color:"#fff"}}>Design and Advanced Materials As a Driver of Innovation</h3>
+                            <p className="blog-p" id="blog-id" data-aos="fade-top" style={{color:"#fff"}}>The integration of advanced materials in design processes is driving innovation in various industries.</p>
                         </div>
                         {/* <div className="blog-head-flex">
                             <div className="blog-flex">
@@ -96,9 +96,9 @@ function Blog() {
                     <article>
                         <div className="blog-artical-div">
                         <img src={blog3} alt=""data-aos="fade-top" />
-                        <div class="text">
-                            <h3 data-aos="fade-top">Latest Technolgy Upgrades Help Increase Quality and Productivity</h3>
-                            <p className="blog-p" id="blog-id" data-aos="fade-top">The latest technology upgrades can enhance both the quality and productivity of  processes and systems. </p>
+                        <div className="text">
+                            <h3 data-aos="fade-top" style={{color:"#fff"}}>Latest Technolgy Upgrades Help Increase Quality and Productivity</h3>
+                            <p className="blog-p" id="blog-id" data-aos="fade-top" style={{color:"#fff"}}>The latest technology upgrades can enhance both the quality and productivity of  processes and systems. </p>
                         </div>
                         {/* <div className="blog-head-flex">
                             <div className="blog-flex">

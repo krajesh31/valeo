@@ -9,9 +9,9 @@
 
   .logo
   {
-    width: 130px;
-    height: 90px;
-    margin-top: -20px;
+    width: 23%;
+    /* height: 90px; */
+    margin:15px 0 20px 24px;
   }
   
   .pages {
@@ -19,12 +19,12 @@
     text-align: center;
     font-size: calc(1.5rem + 2vw);
     margin-top: 10%;
-    
-   
+    background-color:#edf0f2;   
   }
   
   .navbar {
-    background-color: #303030;
+    /* background-color: #303030; */
+    background-color: #fff;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 80px;
     max-width: 1500px;
   }
@@ -68,7 +68,7 @@
     display: flex;
     list-style: none;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: -86px;
     margin-top: 21px;
 
   }
@@ -81,7 +81,7 @@
 
   
   .nav-links {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
@@ -93,7 +93,7 @@
   }
   .nav-links:hover{
     text-decoration: none;
-    color: #fff;
+    color: #0095DA;
   }
   .fa-code {
     margin-left: 1rem;
@@ -101,7 +101,15 @@
   
   .nav-item {
     line-height: 40px;
-    margin-right: 1rem;
+    width: 111px;
+
+    /* margin-right: 1rem; */
+    /* padding: 15px 17px; */
+    /* width:20%; */
+  }
+
+  .nav-about{
+    width:30% !important;
   }
   
   .nav-item:after {
@@ -129,7 +137,8 @@
   }
   .dropbtn {
     color: white;
-    background-color: #303030;
+    /* background-color: #303030; */
+    background-color: #fff;
     border: none;
   }
   
@@ -145,7 +154,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-top: 4px solid #ECAD14 ;
-    background: #0095DA;
+    background: #edf0f2;
     color: #fff;
     /* padding: 10px 40px 30px 0px; */
     width: 240px;
@@ -270,12 +279,12 @@
   }
 
   #dropdown-basic{
-    color: #fff;
+    color: #000;
     font-size: 18px;
     border: none;
 
   }
-  .dropdown-item:focus, .dropdown-item:hover{
+  .dropdown-item:focus, .drop-link:hover{
     background: #ECAD14 !important;
     color: #fff !important;
   }
@@ -290,9 +299,13 @@
 .drop-link{
   text-decoration: none;
   color: #000b0c;
+  display: flex;
+
 }
 .drop-link:hover{
   color: #fff;
+  display: flex;
+
 }
 
 
@@ -309,6 +322,8 @@
       opacity: 1;
       transition: all 0.5s ease;
       height: 100vh;
+      text-align: center;
+    padding: 0 39% 0 39%;
     }
   
     .nav-menu.active {
@@ -319,7 +334,7 @@
       z-index: 1;
     }
     .dropbtn {
-      color: white;
+      color: white !important;
       background-color: rgb(10 19 20 / 16%)
       ;
       border: none;
@@ -332,6 +347,7 @@
       padding: 1.5rem;
       width: 100%;
       display: table;
+      color:#fff;
     }
   
     .nav-icon {

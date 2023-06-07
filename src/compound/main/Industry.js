@@ -17,18 +17,18 @@ function Industry() {
 
   return (
     <section className="industry">
-      <div class="container">
+      <div className="container">
 
         <div className="industry-head">
           <h2 className="ind-serve py-4"  data-aos="fade-top">INDUSTRY WE SERVE</h2>
           {/* <p className="" data-aos="fade-top ">The term "industry" can refer to a broad range of fields and sectors involved in the production of goods or services. Some examples of industries include:</p> */}
         </div>
-        <main class="grid">
-          <article className="artical">
-            <div className="industry-artical-div">
+        <main className="grid">
+          <article className="artical industry-artical">
+            <div className="industry-artical-div industry-artical-new">
               <img src={Industry1} alt="" data-aos="fade-top"/>
-              <div class="text industry-text panel-container">
-                <div class="panel-content">
+              <div className="text industry-text panel-container industry-panel">
+                <div className="panel-content">
                 <h2 className="my-3 IndustryCardH2"data-aos="fade-top" >SOLAR PANEL</h2>
                 <div className="newIndustryReadMore">
                   <button><Link className="newIndustryReadMoreLink">Read More</Link></button>
@@ -38,10 +38,10 @@ function Industry() {
             </div>
 
           </article>
-          <article className="industry-artical2">
-            <div  className="industry-artical-div">
+          <article className="industry-artical2  industry-artical">
+            <div  className="industry-artical-div industry-artical-new">
             <img src={Industry2} alt="" data-aos="fade-top"/>
-            <div class="text industry-text panel-container">
+            <div className="text industry-text new-indus panel-container">
               <h2 className="my-3">TRANSFORMER</h2>
               <div className="newIndustryReadMore">
                   <button><Link className="newIndustryReadMoreLink">Read More</Link></button>
@@ -51,10 +51,10 @@ function Industry() {
             </div>
             </div>
           </article>
-          <article>
-            <div  className="industry-artical-div">
+          <article className="industry-artical">
+            <div  className="industry-artical-div industry-artical-new">
             <img src={Industry3} alt="" data-aos="fade-top"/>
-            <div class="text industry-text panel-container">
+            <div className="text industry-text panel-container">
               <h2 className="my-3" data-aos="fade-top">AUTOMOTIVE</h2>
               <div className="newIndustryReadMore">
                   <button><Link className="newIndustryReadMoreLink">Read More</Link></button>

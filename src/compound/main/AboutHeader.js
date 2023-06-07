@@ -26,15 +26,13 @@ function AboutHeader() {
                 <h2>.</h2>
             </div>
 
+            <div className="row services my-5 mx-2">
 
-            <div className="row container-fluid my-5 services">
-                {/* <h2 className="my-4" data-aos="fade-top" >OUR COMPANY</h2> */}
-                <div className="col-md-5 mx-auto my-4" data-aos="fade-top">
-                    <img src={about} alt="" className="AboutUpdateImage" />
+                <div className="col-xxl-6 col-xl-6 mt-3">
+                <img src={about} alt="" width="95%" style={{borderRadius:"20px"}} />
                 </div>
-                <div className="col-md-6 about-child my-3" data-aos="fade-top">
+                <div className="col-xxl-6 col-xl-6 about-child my-3">
                     <div className="About-update-header">
-                        {/* <h6>OUR COMPANY</h6> */}
                         <h3 className=" mb-4">About Our Company</h3>
                     </div>
                     <p>
@@ -44,28 +42,19 @@ function AboutHeader() {
                     </p>
                     <p>Established in 1984, Vartika Wire Products Private Limited is a leading manufacture of copper wire and allied products in South India. We have been manufacturing bunched & Stranded, Tin Plated, Super Enameled Copper Winding Wires (Magnet Wires) for the last 2 decades catering to the specific requirements of our customers. We have a manufacturing capacity about 10000 tones of copper wire allied products a year.</p>
 
-
-                    {/* <p data-aos="fade-top">
-
-                        It is the era of the internet, and every businesses of all magnitudes, from a
-                        small-scale manufacturer to a conglomerate, need a strong internet presence.
-                        And Adworld digital services helps you with exactly that. We have a strong
-                        ensemble of web developers, designers, SEO experts who can mould your
-                        business strategy with page optimization, manual search engine submissions,
-                        making sure your brand reaches the target audience, at the right time, using
-                        accurate keywords, with requirement based strong content driven service.
-
-                    </p> */}
                 </div>
+
 
             </div>
 
-            <div className="about-p mx-5 choose">
+
+
+            <div className="about-p  choose">
             <p>Established in 1984, Vartika Wire Products Private Limited is a leading manufacture of copper wire and allied products in South India. We have been manufacturing bunched & Stranded, Tin Plated, Super Enameled Copper Winding Wires (Magnet Wires) for the last 2 decades catering to the specific requirements of our customers. We have a manufacturing capacity about 10000 tones of copper wire allied products a year.</p>
             </div>
             <div className="about-header2">
                 <h2 className="my-5" data-aos="fade-top">WHY CHOOSE US</h2>
-                <div className="about-p mx-5 choose" data-aos="fade-top">
+                <div className="about-p  choose" data-aos="fade-top">
                     <p className="my-4">
                         Vartika Wire Products Private Limited is a leading Manufacturer of copper wires and allied products. Established in 1984, the company caters to the specific requirements of verious core industry sectors like machinery, telecom, power and automotive, The company holds an ISO 9001:2000 certification and users state of the art technology to ensure quality and productivity.
                     </p>
@@ -81,14 +70,14 @@ function AboutHeader() {
             </div>
 
             <div>
-                <div class="container my-5">
+                <div className="container mt-5 pb-3">
 
 
-                    <main class="grid product-head">
+                    <main className="grid product-head">
                         <article>
                             <div className="industry-artical-div">
                                 <img src={Misson} alt="" className="about-image" data-aos="fade-top" />
-                                <div class="text industry-text" data-aos="fade-top">
+                                <div className="text industry-text" data-aos="fade-top">
                                     {/* <FaMonero className="famonero" /> */}
                                     <h4 className="my-3">OUR MISSION</h4>
                                     <p>We are dedicated to providing technologically superior products of execeptional velue to our customers to help them gain a competitive edge in their market, while providing a nurturing grouth ev]nvironment that encourages employees to be highly productive.
@@ -100,7 +89,7 @@ function AboutHeader() {
                         <article>
                             <div className="industry-artical-div">
                                 <img src={Vision} alt="" className="about-image" data-aos="fade-top" />
-                                <div class="text industry-text" data-aos="fade-top">
+                                <div className="text industry-text" data-aos="fade-top">
                                     <h4 className="my-3">OUR VISSION</h4>
                                     <p>Our Success lies in the success of our customers. Being in the manufacturing industry we are important link in a long chain of events that must take place in order to bring a project to completion. As a customer driven company we ensure the uuality of our products through applications of new technology and best business practices.
                                     </p>
@@ -110,7 +99,7 @@ function AboutHeader() {
                         <article>
                             <div className="industry-artical-div">
                                 <img src={Core} alt="" className="about-image" data-aos="fade-top" />
-                                <div class="text industry-text" data-aos="fade-top">
+                                <div className="text industry-text" data-aos="fade-top">
                                     <h4 className="my-3">QUALITY ASSURANCE AND RECOGNITION</h4>
                                     <p>The Testing Laboratories at Vartika Wire Products Private Limited consist of two lab sections— the Electric Properties Lab and the Dimensional and Material Properties Lab. While these two labs work hand in hand, each is directly responsible for different activities.</p>
                                 </div>

@@ -1,17 +1,21 @@
 .about-header-Facility{
-    background: url(../img/clients/facility.jpg);
+    background: url(../img/WhatsApp7.jpg);
     margin-top: -10%;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
 }
-
+.services{
+    /* background-color:#edf0f2; */
+    color:#000 !important;
+}
 .about-header-Facility h2 {
     color: #ffff;
     font-family: Quicksand;
     padding: 150px;
     font-size: 80%;
     visibility: hidden;
+    margin:0;
 }
 
 .facility-img img{
@@ -31,6 +35,6 @@
 
 .facility-grid2{
     font-size: 21px;
-    text-align: left;
-    color: #ffffffb7;
+    color: #000;
+    text-align: justify;
     font-family: sans-serif;}

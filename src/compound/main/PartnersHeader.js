@@ -28,18 +28,18 @@ function PartnersHeader() {
       }, [])
     return (
         <section>
-            <div class="team-boxed">
+            <div className="team-boxed">
                 <div className="partners-head">
                         <h2 id="partners-h2"  data-aos="fade-top">.</h2>
                     </div>
-                <div class="mx-5">
+                <div className="mx-5">
 
                     <div className="mt-1 mb-3" data-aos="fade-top">
                         <h2 className="part-h2 ">Partners</h2>
-                        <p className="part-p mt-5">We have been associated with a few of the Industry leaders in manufacturing who proudly have in their possession racking systems made by Smart Storage Technologies.</p>
+                        <p className="part-p mt-5">We have been associated with a few of the Industry leaders in manufacturing who proudly have in their possession racking systems made by valeo products llp.</p>
                     </div>
                     
-                    <div class=" people container ">
+                    <div className=" people container ">
                         
                         <div className=" my-3" data-aos="fade-top">
                             <div className="card client">
