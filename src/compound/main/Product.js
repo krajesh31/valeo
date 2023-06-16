@@ -17,7 +17,7 @@ function Product() {
     return (
         <section>
             <div className="title-head">
-                <h3>PRODUCT</h3>
+                <h3>PRODUCTS</h3>
             </div>
 
             <div className="row">
@@ -27,93 +27,58 @@ function Product() {
                 </div>
                 <div className="col-xxl-6 col-xl-6 col-lg-6  col-md-12  p-0 product-child " >
                     <div className=" px-5">
-                    <div>
-                   <h2 data-aos="fade-top">WINDING WIRE</h2>
-                    <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
-
+                        <div>
+                            <h2 data-aos="fade-top">WINDING WIRE</h2>
+                            <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
+                            <div className="newIndustryReadMore product-read-child pb-3">
+                                <button><a className="newIndustryReadMoreLink" href="wire">Read More</a></button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="newIndustryReadMore product-read-child pb-3">
-                     <button><a className="newIndustryReadMoreLink" href="wire">Read More</a></button>
-                    </div>
-                    </div>
-                    
-
-
                 </div>
-
                 <div className="col-xxl-6 col-xl-6 col-lg-6  col-md-12  p-0 child2 product-child " >
                     <div className=" px-5">
-                    <div>
-                   <h2 data-aos="fade-top">RENEWABLE ENERGY</h2>
-                    <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
+                        <div>
+                            <h2 data-aos="fade-top">RENEWABLE ENERGY</h2>
+                            <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
+                            <div className="newIndustryReadMore product-read-child pb-3">
+                                <button><a className="newIndustryReadMoreLink" href="Pv">Read More</a></button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="newIndustryReadMore product-read-child pb-3">
-                     <button><a className="newIndustryReadMoreLink" href="Pv">Read More</a></button>
-                    </div>
-                    </div>
-                    
-
-
                 </div>
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 p-0">
-                <img src={Productimg4} alt=""  width="100%" height="100%" />
-                </div>
-
-
-                
+                    <img src={Productimg4} alt=""  width="100%" height="100%" />
+                </div>                
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 p-0">
-                <img src={Productimg5} alt=""  width="100%" height="100%" />
+                    <img src={Productimg5} alt=""  width="100%" height="100%" />
                 </div>
                 <div className="col-xxl-6 col-xl-6 col-lg-6  col-md-12  p-0 product-child child3" >
                     <div className=" px-5">
-                    <div>
-                   <h2 data-aos="fade-top">PACKAGING OPTION</h2>
-                    <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
+                        <div>
+                            <h2 data-aos="fade-top">PACKAGING OPTION</h2>
+                            <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
+                            <div className="newIndustryReadMore product-read-child pb-3">
+                                <button><a className="newIndustryReadMoreLink" href="Energy">Read More</a></button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="newIndustryReadMore product-read-child pb-3">
-                     <button><a className="newIndustryReadMoreLink" href="Energy">Read More</a></button>
-                    </div>
-                    </div>
-                    
-
-
                 </div>
-
-
                 <div className="col-xxl-6 col-xl-6 col-lg-6  col-md-12  p-0 product-child child4" >
                     <div className=" px-5">
-                    <div>
-                   <h2 data-aos="fade-top">QUALITY ASSURANCE</h2>
-                    <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
-                    <p data-aos="fade-top">Flat wire, Ribbon, String Wire, Photovoltaic Wire, PV Wire, Interconnecting tab, PV Copper Ribbon, Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.Solar cell interconnect tabbing, Flattened copper wire, Solder plated copper ribbon, Tabbing Strip, Tabbing Ribbon , Stringing Ribbon.</p>
+                        <div>
+                            <h2 data-aos="fade-top">QUALITY ASSURANCE</h2>
+                            <p data-aos="fade-top">We are supplying copper wires and rods that have high electrical conductivity, good forming properties, tight dimensional tolerances and excellent surface.</p>
+                            <div className="newIndustryReadMore product-read-child pb-3">
+                                <button><a className="newIndustryReadMoreLink" href="Quality">Read More</a></button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="newIndustryReadMore product-read-child pb-3">
-                     <button><a className="newIndustryReadMoreLink" href="Quality">Read More</a></button>
-                    </div>
-                    </div>
-                    
-
-
                 </div>
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 p-0">
                 <img src={Productimg7} alt=""  width="100%" height="100%"/>
                 </div>
-
-                
-
-            </div>
-           
+            </div>           
         </section>
     )
 }

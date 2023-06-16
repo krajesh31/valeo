@@ -221,7 +221,6 @@ border-radius:3px;
 .contact-head
 {
   background: url(../img/clients/contact.jpg) ;
-    margin-top: -10%;
     background-repeat: no-repeat;
     background-size:cover;
     background-blend-mode: darken;

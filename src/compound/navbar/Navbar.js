@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { FaAdn, FaBars, FaBox, FaCogs, FaPhoneAlt, FaRust, FaWhatsapp, FaWindowClose, FaWonSign,FaCaretDown } from 'react-icons/fa';
 import logo from '../img/logo2.png';
@@ -6,17 +6,45 @@ import '../css/navbar.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 
 function Navbar() {
-
+  const [isShrunk, setShrunk] = useState(false);
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
+
+  useEffect(() => {
+    const onScroll = () => {
+      setShrunk((isShrunk) => {
+        if (
+          !isShrunk &&
+          (document.body.scrollTop > 80 ||
+            document.documentElement.scrollTop > 80)
+        ) {
+          return true;
+        }
+
+        if (
+          isShrunk &&
+          document.body.scrollTop < 60 &&
+          document.documentElement.scrollTop < 60
+        ) {
+          return false;
+        }
+
+        return isShrunk;
+      });
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
-      <nav className="navbar" onClick={e => e.stopPropagation()}>
+      <nav className={`navbar ${isShrunk ? 'shrink-header' : ''}`} onClick={e => e.stopPropagation()}>
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             <img src={logo} alt="" className="logo" />

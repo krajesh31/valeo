@@ -1,4 +1,5 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
 import {BrowserRouter,Switch,Route} from 'react-router-dom'
 import Navbar from './compound/navbar/Navbar'
