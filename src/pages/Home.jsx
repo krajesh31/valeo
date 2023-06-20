@@ -44,7 +44,7 @@ function Home() {
     }, [])
     return (
         <section>
-            <Slider className="slider-wrapper">
+            <Slider className="slider-wrapper" autoplay="3000">
             {content.map((item, index) => (
                 <div
                 key={index}

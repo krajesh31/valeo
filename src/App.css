@@ -346,3 +346,55 @@ h1, h2, h3, h4, h5, h6, p, div, ul, li, a {
 	-webkit-transition-delay: 0s;
 					transition-delay: 0s;
 }
+.modal {
+      --bs-modal-width: 85% !important;
+}
+.fullscreen-modal .image-gallery-slide-wrapper {
+  width:50% !important;
+}
+.fullscreen-modal .image-gallery-thumbnails-wrapper {
+  display: none !important;
+}
+.image-gallery.fullscreen-modal {
+  background: rgba(0,0,0,0.8) !important;
+}
+.fullscreen-modal .image-gallery-content {
+  background: transparent !important;
+}
+.calculator-section {
+    background: #0095DA;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+}
+.calculator-section div {
+  width: 100%;
+  color:#ffffff;
+}
+.section-sup h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700 !important;
+}
+.section-title {
+  text-transform: uppercase;
+  font-weight: 700 !important;
+}
+.calc-btn .btn-primary {
+  border: none;
+    padding: 15px 25px;
+    border-radius: 0;
+    background: #A6CE38;
+    color: #fff;
+    font-family: Nunito,sans-serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.container {
+  /* max-width: 1300px !important; */
+}

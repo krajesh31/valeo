@@ -300,7 +300,7 @@
   text-decoration: none;
   color: #000b0c;
   display: flex;
-
+  align-items: center;
 }
 .drop-link:hover{
   color: #fff;

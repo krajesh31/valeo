@@ -59,42 +59,32 @@ function Wire() {
       <div className="winding mb-5" id="w-i">
         <h2>Winding Wire</h2>
       </div>
-      <div className="row  my-5 mx-5 ">
-        <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6 mx-5  mt-5 mb-4 final_product">
+      <div className="container">
+      <div className="row mb-4">
+        <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
           <div className="slider-container">
-            <ImageGallery items={images} thumbnailPosition="right" showPlayButton={false} />
+            <ImageGallery items={images} thumbnailPosition="right" showPlayButton={false} useBrowserFullscreen={false} />
           </div>
         </div>
-
-        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12 mt-3  plugin-p  ">
-          <div className="box">
-            <div className="pvuph">
-              <h1 className="pt-3">Valeo Calculator</h1>
-            </div>
-            <img src={cal} className="calImg" />
-            <div className="box-content">
+        <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-12">
+          <div className="calculator-section">
+            <div className="calculator-section-inner">
+              <div className="section-sup">
+                <h5>Welcome To</h5>
+              </div>
+              <div className="section-title">
+                <h3>Valeo Calculator</h3>
+              </div>
+              <div className="section-desc">
+                <p>Easily determine the optimal dimensions for your copper project with our efficient tool.</p>
+              </div>
+              <div className="calc-btn">
               <PopUp />
-            </div>
-            <ul className="social-links">
-              <li>
-                <a href="#">
-                  <i className="fa fa-search"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-link"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-            </ul>
+              </div>
+              </div>
           </div>
         </div>
-
+        </div>
         <div className="col-xxl-12 col-xl-12 col-md-12 plugin-p justify my-4">
           <p className="">
             Pallet Racking provides your warehousing teams with unrestricted

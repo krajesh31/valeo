@@ -140,7 +140,7 @@ function Calculator() {
         <div className="form-bg ">
           <div className="container">
               <div className="row">
-                <div className="cal-head col-md-offset-3 col-md-11  col-sm-11 col-11 ">
+                <div className="col-sm-6">
                   <div className="form-container">
                     <h3 className="title">PV Connect</h3>
                     <Container>
@@ -265,7 +265,7 @@ function Calculator() {
                   </div>
               </div>
               
-              <div className="cal-head col-md-offset-3 col-md-11  my-3  col-sm-12 col-11">
+              <div className="col-sm-6">
                   <div className='out-sec-container '>
                   <h3 className="title">Calculated Result</h3>
                     <div className="row out-sec out-model">

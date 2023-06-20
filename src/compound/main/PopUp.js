@@ -10,8 +10,8 @@ function PopUp() {
 
   return (
     <>
-     <Button className='popup-button my-3' onClick={() => setShow(true)}>
-     <FaCalculator/>  Calculator
+     <Button className='popup-button' onClick={() => setShow(true)}>
+     <FaCalculator/>  Calculate
       </Button>
 
       <Modal
