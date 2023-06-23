@@ -24,6 +24,7 @@ import "../css/plugin.css";
 import propv from "../img/clients/callaction.jpg";
 import $ from "jquery";
 import ImageGallery from 'react-image-gallery';
+import CallUs from "./callus";
 
 function Energy() {
   useEffect(() => {
@@ -67,7 +68,7 @@ function Energy() {
   };
 
   return (
-    <section className="mt-5">
+    <section>
       <div className="wire-img mx-auto">
         <img src={wir} alt="" className="mx-auto" />
       </div>
@@ -75,7 +76,7 @@ function Energy() {
         <h2>Packaging Option</h2>
       </div>
       <div className="container">
-      <div className="row  my-5 mx-5 ">
+      <div className="row">
         <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
           <div className="slider-container">
             <ImageGallery items={images} thumbnailPosition="right" showPlayButton={false} useBrowserFullscreen={false} />
@@ -123,9 +124,7 @@ function Energy() {
         </div>
       </div>
       </div>
-      <div>
-        <img src={propv} alt="" className="calnew-img" />
-      </div>
+      <CallUs/>
       <Arrow />
     </section>
   );

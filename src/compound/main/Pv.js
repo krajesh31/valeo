@@ -24,6 +24,7 @@ import '../css/plugin.css'
 import propv from '../img/clients/callaction.jpg'
 import $ from "jquery";
 import ImageGallery from 'react-image-gallery';
+import CallUs from "./callus";
 
 function Pv() {
   useEffect(() => {
@@ -70,7 +71,7 @@ function Pv() {
 
   return (
     
-    <section className='mt-5'>
+    <section>
       <div className='wire-img mx-auto'>
         <img src={wir} alt='' className='mx-auto' />
       </div>
@@ -129,9 +130,7 @@ function Pv() {
       </div>
       </div>
       
-      <div>
-      <img src={propv} alt="" className='calnew-img'/>
-      </div>
+      <CallUs/>
       <Arrow />
     </section>
   )

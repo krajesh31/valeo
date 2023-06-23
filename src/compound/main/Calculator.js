@@ -137,7 +137,7 @@ function Calculator() {
                 <h2>Calculator</h2>
             </div> */}
       <div className="App ">
-        <div className="form-bg ">
+        <div className="form-bg mb-4">
           <div className="container">
               <div className="row">
                 <div className="col-sm-6">

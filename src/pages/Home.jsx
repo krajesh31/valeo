@@ -55,7 +55,7 @@ function Home() {
                     <div className="inner-content">
                         <h1>{item.title}</h1>
                         <p>{item.description}</p>
-                        <div className="text-center"><button>{item.button}</button></div>
+                        {/* <div className="text-center"><button>{item.button}</button></div> */}
                     </div>
                 </div>
                 {/* <section>

@@ -24,6 +24,7 @@ import "../css/plugin.css";
 import propv from "../img/clients/callaction.jpg";
 import $ from "jquery";
 import ImageGallery from 'react-image-gallery';
+import CallUs from "./callus";
 
 function Wire() {
   useEffect(() => {
@@ -52,9 +53,12 @@ function Wire() {
     }
   ];
   return (
-    <section className="mt-5">
-      <div className="about-header-Facility" data-aos="fade-top">
+    <section>
+      {/* <div className="about-header-Facility" data-aos="fade-top">
         <h2>.</h2>
+      </div> */}
+      <div className='wire-img mx-auto'>
+        <img src={wir} alt='' className='mx-auto' />
       </div>
       <div className="winding mb-5" id="w-i">
         <h2>Winding Wire</h2>
@@ -108,9 +112,10 @@ function Wire() {
           </p>
         </div>
       </div>
-      <div className="my-0">
+      <CallUs/>
+      {/* <div className="my-0">
         <img src={propv} alt="" className="calnew-img" />
-      </div>
+      </div> */}
       <Arrow />
     </section>
   );

@@ -19,8 +19,8 @@ function Navbar() {
       setShrunk((isShrunk) => {
         if (
           !isShrunk &&
-          (document.body.scrollTop > 80 ||
-            document.documentElement.scrollTop > 80)
+          (document.body.scrollTop > 120 ||
+            document.documentElement.scrollTop > 120)
         ) {
           return true;
         }

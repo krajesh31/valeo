@@ -20,11 +20,13 @@
 }
 
 .wire-img {
-    margin-top: -10%;
+    /* margin-top: -10%; */
     background: #ffff;
     /* padding: 30px; */
 }
-
+.wire-img img {
+    max-width: 100%;
+}
 .Vartika {
     text-align: left;
     color: #ffff;
